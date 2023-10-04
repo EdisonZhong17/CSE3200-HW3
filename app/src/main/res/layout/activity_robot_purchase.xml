@@ -51,10 +51,10 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/buttonRewardA"
+                android:id="@+id/buttonReward1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Reward \n A" />
+                android:contentDescription="Reward 1 Purchase Button"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -63,14 +63,13 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/costOfRewardAEnergy"
+                    android:id="@+id/costOfReward1Energy"
                     android:layout_width="15dp"
                     android:layout_height="wrap_content"
-                    android:text="1"
                     android:textSize="24sp" />
 
                 <ImageView
-                    android:id="@+id/rewardAEnergy"
+                    android:id="@+id/reward1Energy"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/energy_counter" />
@@ -86,10 +85,10 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/buttonRewardB"
+                android:id="@+id/buttonReward2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Reward \n B" />
+                android:contentDescription="Reward 2 Purchase Button"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -98,14 +97,13 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/costOfRewardBEnergy"
+                    android:id="@+id/costOfReward2Energy"
                     android:layout_width="15dp"
                     android:layout_height="wrap_content"
-                    android:text="2"
                     android:textSize="24sp"/>
 
                 <ImageView
-                    android:id="@+id/rewardBEnergy"
+                    android:id="@+id/reward2Energy"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/energy_counter" />
@@ -120,10 +118,10 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/buttonRewardC"
+                android:id="@+id/buttonReward3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Reward \n C" />
+                android:contentDescription="Reward 3 Purchase Button"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -132,14 +130,13 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/costOfRewardCEnergy"
+                    android:id="@+id/costOfReward3Energy"
                     android:layout_width="15dp"
                     android:layout_height="wrap_content"
-                    android:text="3"
                     android:textSize="24sp"/>
 
                 <ImageView
-                    android:id="@+id/rewardCEnergy"
+                    android:id="@+id/reward3Energy"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/energy_counter" />
