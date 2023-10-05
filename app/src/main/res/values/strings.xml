@@ -13,6 +13,8 @@
     <string name="reward_g">Reward G</string>
     <string name="purchased">Purchased</string>
     <string name="error_reward">Unknown Item</string>
+    <string name="reward_list">Has Rewards</string>
+    <string name="empty_reward_list">Has No Reward Yet</string>
     <string name="insufficient_resources">Insufficient Resources</string>
     <string name="title_activity_robot_purchase">RobotPurchase</string>
 </resources>

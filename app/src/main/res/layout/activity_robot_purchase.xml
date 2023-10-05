@@ -19,8 +19,7 @@
             android:id="@+id/robotLarge"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="20dp"
-            app:srcCompat="@drawable/king_of_detroit_robot_white_large" />
+            android:layout_marginRight="20dp"/>
 
         <TextView
             android:id="@+id/robotEnergyToSpend"
